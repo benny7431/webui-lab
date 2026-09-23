@@ -20,7 +20,7 @@ Copilot 指引保留使用者提供的老師英文原文。本檔補充專案導
 - [ai.md](ai.md)：重要 AI 提問、建議、驗證方式與學生採用或修改的紀錄。
 - [.github/copilot-instructions.md](.github/copilot-instructions.md)：老師英文原文，作為主要教學與協作指引。
 - [.gitignore](.gitignore)：套件、建置產物、環境設定與日誌的排除規則。
-- [index.html](index.html)：基本首頁，包含網站名稱與簡介，學生瀏覽器操作及 HTML 理解待確認。
+- [index.html](index.html)：首頁包含網站名稱、簡介與兩首靜態歌曲列表；基本首頁及兩首歌曲顯示已確認，li／ol 情境選擇已答對，其餘新增標籤理解待確認。
 - [verification/README.md](verification/README.md)：首頁驗證結果與可重複執行的操作步驟。
 - 新增實際程式入口、模組或執行方式時，同步更新此導覽；只記錄已存在並確認的內容。
 

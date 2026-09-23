@@ -1,14 +1,14 @@
 # 放首歌：目前進度
 
-最後更新：2026-09-23 15:02:49 +08:00（Asia/Taipei）
+最後更新：2026-09-23 15:24:37 +08:00（Asia/Taipei）
 
 ## 目前停留點
 
-最新回覆：學生明確回報已在瀏覽器看到首頁，並授權「可以提交了」。title 與 h1 的差別已確認。AI 已核對儲存庫、首頁、README 與 .gitignore 暫存前後差異；本輪準備將現有專案檔案及驗證紀錄建立第一次本機提交，訊息為「W01: 建立專案首頁與學習紀錄」，不上傳 GitHub。提交結果待本輪命令確認。
+最新回覆：學生回報已看到兩首歌曲並明確同意提交。AI 已核對 index.html、專案導覽、學習紀錄與兩份歌曲列表驗證結果，將以「W02: 建立靜態歌曲列表」建立本機提交。本輪不推送，CSS 尚未實作。兩首歌曲由 AI 協助修改，學生已確認顯示及 li／ol 情境選擇；不擴大認定其餘標籤理解。
 
 本輪接續：學生已同意基本首頁方案，AI 新增 index.html 並以 Chrome 實測本機首頁的標題、簡介、中文編碼及主標題可見性；不存在頁面回傳 404。結果與重複操作見 verification/README.md、homepage-result.json；截圖擷取逾時，沒有截圖證據。title 與 h1 的修改影響已確認；學生已確認親自開啟首頁；其餘 HTML 理解不擴大認定。首次提交已授權。學生提醒網頁應盡量參考原專案，已核對 AGENTS 與 ROADMAP B／C：後續結構及 Noir 外觀需先讀取原版對應檔案再調整；本輪基本首頁尚未取用原版畫面。
 
-目前進行 W01 的環境與 Git 起步。Git 初始化、忽略規則檢查及本專案提交署名設定已完成；學生已貼回署名查詢結果，並在情境題中正確選擇 `--local`。學生已親自執行 `git add .gitignore` 與 `git status`，暫存操作成功；概念理解仍待回答，尚無 commit。學生已完成 `README.md` 標題與簡介修改並回報，AI 已核對內容；README 不會自動產生 HTML 首頁的基本理解已確認；整週 W01 尚未完成。
+目前進入 W02 單首靜態歌曲；以下保留 W01 已確認成果及待確認概念。Git 初始化、忽略規則檢查及本專案提交署名設定已完成；學生已貼回署名查詢結果，並在情境題中正確選擇 `--local`。學生已親自執行 `git add .gitignore` 與 `git status`，暫存操作成功；暫存概念理解仍待回答；現已完成首次 commit。學生已完成 `README.md` 標題與簡介修改並回報，AI 已核對內容；README 不會自動產生 HTML 首頁的基本理解已確認；整週 W01 尚未完成。
 
 學生指出先前代理把 Git 理解題排在 README 之前，並質疑 `npm run dev` 是否屬於最新教材。本輪重新讀取 [WEB03 整合版](https://moodle.ncnu.edu.tw/pluginfile.php/170589/mod_resource/content/0/web03.md)，確認同份文件含 W01、W02、W03；W01 第 1.7 節 README 範例只有標題、簡介與學號，首頁段落改用 7777 埠的 `http-server`。較早的 [獨立 WEB01](https://moodle.ncnu.edu.tw/pluginfile.php/162581/mod_resource/content/0/web01.md)才在 README 範例列 `npm install`／`npm run dev`，不可混為最新版本。現行順序是 `.gitignore` → README → `index.html` → 第一次 commit → GitHub；教材對照保留於下方。
 
@@ -17,12 +17,12 @@
 ## 已完成與目前狀態
 
 - 專案名稱已確定為「放首歌」，是獨立從零建立的歌曲網站。
-- 現有檔案包含 `.gitignore`、`README.md`、`AGENTS.md`、`.github/copilot-instructions.md`、`PROGRESS.md`、`ROADMAP.md`、`web.md`、`ai.md`；README 為核對期間新出現的未追蹤檔案。
+- 現有檔案包含 `.gitignore`、`README.md`、`AGENTS.md`、`.github/copilot-instructions.md`、`PROGRESS.md`、`ROADMAP.md`、`web.md`、`ai.md`，另有 index.html 與 verification/；均已納入首次提交。
 - 本輪在 Moodle 登入頁核對 WEB03 的 W01／W02／W03 內容與舊 WEB01 的差異，並核對實際檔案及 Git 狀態；文件修正僅涉及 `AGENTS.md`、`ROADMAP.md`、`PROGRESS.md`、`ai.md`。代理未代學生暫存、提交、推送或新增應用程式。
-- 最新 Git 狀態：分支為 `main`，`.gitignore` 已暫存且另有未暫存修改，`README.md` 尚未追蹤，尚無任何 commit。此前核對本機未設定遠端，GitHub 是否另有儲存庫未核對；本輪沒有提交或推送。
+- 最新 Git 狀態：main 與 origin/main 的提交仍為 882a84c，origin 為 https://github.com/benny7431/webui-lab.git（公開）。本輪 index.html、AGENTS.md、PROGRESS.md、web.md、ai.md、verification/README.md 及新增 song-list-result.json 尚未提交。
 - Git 名稱與 email 已設定在本專案，學生也已查詢並貼回正確結果。具體值由 `git config --local --get user.name` 與 `git config --local --get user.email` 查詢，不需再次索取或重做設定。
 - 主對話已有檢查證據：Node.js、npm、Git 能執行，11 項忽略規則檢查通過。本輪沒有重跑這些檢查。
-- 已有基本 `index.html` 及實測可用的 http-server 啟動方式；尚無 `package.json`、歌曲功能或公開部署。
+- 已有基本 `index.html` 及實測可用的 http-server 啟動方式；已有兩首靜態歌曲展示；尚無 `package.json`、播放功能或公開部署。
 
 ## 已確認決定與待取得資訊
 
@@ -42,7 +42,7 @@
 | [WEB03 原文](https://moodle.ncnu.edu.tw/pluginfile.php/170589/mod_resource/content/0/web03.md)，[資源頁](https://moodle.ncnu.edu.tw/mod/resource/view.php?id=91739&forceview=1)；上傳 2026-09-20 16:51；`W03 — 從本機開發到公開部署` Part 3 | 預設已有 demo。只修 Web Programming 者可用 `npx.cmd http-server . -p 7777 -a 0.0.0.0`；FastAPI 是可選路徑。老師收集 IP、設定 IIS 反向代理與 HTTPS，學生測試本機和公開網址。 | 對應 ROADMAP A／B／C 與 I 的早期部署；目前缺首頁及已驗證啟動方式，不應直接安裝整套 Python／IIS。尚未確認學生是否兼修 DBS、實際主機／網路、正式公開網址及老師 IP 登記方式；教材 `https://demo…/` 是示意，不能當成可用網址。 |
 | [W03 課程單元](https://moodle.ncnu.edu.tw/course/view.php?id=7757)，2026-09-20 至 09-26 | 另有 HTML 影片、W3Schools 練習及 HTML Quiz；課程要求隨影片暫停、互動並驗證。另份 IIS／Uvicorn 詳細文件明標給 TA 參考、有興趣自學。 | 影片、練習與 Quiz 完成情形沒有本專案證據，保持待確認；不把伺服器管理員的工作列成學生必裝項目。 |
 | [Check Point #1 簡報專題計畫](https://moodle.ncnu.edu.tw/mod/assign/view.php?id=80057)，置於 W04（2026-09-27 至 10-03） | 每組一人上傳；兼修兩門課者交於資料庫系統；標題頁列姓名、學號、角色；上傳後保持草稿，不按正式繳交。本次頁面未列明確截止時間。 | 此 Web 作業頁顯示尚無提交；不能據此斷言資料庫課也未交。企畫可取用 ROADMAP，是否組隊／兼修 DBS 及簡報準備情形待確認；W04 單元日期不當成截止日。 |
-| [AI 使用規範](https://moodle.ncnu.edu.tw/pluginfile.php/167400/mod_resource/content/0/web_AI_rules.md) 第 4、5、7 節 | 小步實作、瀏覽器驗證、檢視差異再提交；每週至少 3 次實質 commit，訊息用 `W<週次>: ...`，週五或指定期限前 push；更新 `web.md`／`ai.md`。 | 現在 0 commit、本機沒有遠端，版本存證仍待補；已有學習文件不等於 W02／W03 學習已完成。 |
+| [AI 使用規範](https://moodle.ncnu.edu.tw/pluginfile.php/167400/mod_resource/content/0/web_AI_rules.md) 第 4、5、7 節 | 小步實作、瀏覽器驗證、檢視差異再提交；每週至少 3 次實質 commit，訊息用 `W<週次>: ...`，週五或指定期限前 push；更新 `web.md`／`ai.md`。 | 現已有 1 筆 commit 並上傳 origin/main；每週紀錄及實質進度持續累積，不能據此宣稱 W02／W03 學習已完成。 |
 
 部署時需驗證學校 IIS 能連到所用主機；只提供私人網路 IP 不代表可達。公開網址含學號子路徑時，須在該網址實測 CSS／圖片／連結；伺服器程序停止後網站會失去服務。這些是後續操作的驗證點，本輪未更動防火牆或網路設定。
 
@@ -60,5 +60,5 @@
 
 1. 不重做 Git 初始化、署名設定或已成功的 `.gitignore` 暫存操作；先前提出的暫存理解題待答，但不擋住 README 或首頁。
 2. README 操作、首頁瀏覽器操作及 title／h1 的差別已確認，不重考；學生已授權首次提交。
-3. 首頁學生操作與理解確認後，再檢視第一次 commit；注意 .gitignore 已暫存且另有未暫存修改，檢視差異及個人資料後依課程格式提交。
-4. W02 再做靜態歌曲畫面、獨立 CSS 與企畫整理；W03 在已有 demo 後驗證本機服務、老師提供的 HTTPS 網址與子路徑資源。新教材或內容變更時再核對原文。
+3. 首次提交與 GitHub 上傳已完成；請學生親自查看 webui-lab 的 README、index.html 與提交紀錄，學生已正確指出 push 負責上傳提交，這項不重考。不重做初始化、遠端設定或首次推送。
+4. 兩首靜態歌曲已完成且 AI 瀏覽器檢查通過；第一首顯示及 li／ol 選擇已由學生確認，第二首由 AI 依要求修改。學生已確認顯示並授權本次提交；提交後接參考 Noir 的 CSS 配色與間距小目標，新 CSS 做法尚待確認。
