@@ -1,0 +1,17 @@
+# 依賴套件與建置產物
+node_modules/
+dist/
+build/
+
+# 環境設定與密鑰；範例檔只放占位文字
+.env
+.env.*
+.env.*.local
+!.env.example
+
+# 編輯器、系統與日誌
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*

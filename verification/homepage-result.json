@@ -1,0 +1,11 @@
+{
+  "value": {
+    "title": "放首歌",
+    "lang": "zh-Hant",
+    "charset": "UTF-8",
+    "heading": "放首歌",
+    "paragraph": "Web Programming 課程實作專案，目標是建立可以瀏覽、搜尋與播放歌曲的網站。",
+    "headingVisible": true,
+    "missingStatus": 404
+  }
+}
