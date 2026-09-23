@@ -1,0 +1,51 @@
+/* 配色與字體參考原專案 Noir 的 motion.css。 */
+body {
+  margin: 0;
+  background: #0c0d0f;
+  color: #ecedee;
+  color-scheme: dark;
+  font-family: "Helvetica Neue", Arial, "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+main {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+section {
+  margin-top: 3rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+ol {
+  padding-left: 1.5rem;
+}
+
+li {
+  padding: 1rem 0;
+  border-bottom: 1px solid rgb(236 237 238 / 0.14);
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+p {
+  color: rgb(236 237 238 / 0.62);
+}
+
+li p {
+  margin: 0.25rem 0 0;
+}

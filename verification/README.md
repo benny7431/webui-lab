@@ -27,3 +27,9 @@
 ## W02 第二首歌曲
 
 AI 依學生要求在同一 ol 加入「伴我／張靚穎」。Chrome 結果見 [two-songs-result.json](two-songs-result.json)：列表數量 1、兩個 LI、decimal 編號樣式、兩首歌名與歌手可見。重複檢查：沿用上方啟動指令，開啟 `http://127.0.0.1:7777/?check=w02-two`，應依序看見 1. 逍遙仙／三無Marblue、2. 伴我／張靚穎。此輪只擴充靜態項目，未重跑先前已通過且未受影響的 404 檢查。
+
+## W02 基本 CSS
+
+結果見 [css-result.json](css-result.json)。Chrome 桌面視窗寬 958px 及同源 iframe 375px 的底色、文字色、兩首歌曲與無水平溢出檢查通過；iframe 檢查不等於實體手機測試。暫時停用 CSS 時兩首文字仍在。初次背景分頁非同步等待逾時，另有停用／啟用 CSS 的中間狀態；最後使用全新 iframe 載入完成上述檢查。
+
+重複步驟：啟動既有 http-server，開啟 `http://127.0.0.1:7777/?check=css`，必要時 Ctrl+F5。應看到深色底、淺色歌名、較淡歌手、歌曲間距與分隔線。在開發工具裝置模式設為 375px，確認文字仍完整且無水平捲動；Network 中 css/style.css 應載入成功。可暫時在 Elements 停用 stylesheet link，確認歌曲文字仍存在，重新整理恢復樣式。尚未取得截圖；學生已回報 CSS 畫面出現，並於窄視窗檢查提示後回覆可用。

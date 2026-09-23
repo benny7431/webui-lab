@@ -11,7 +11,7 @@ Copilot 指引保留使用者提供的老師英文原文。本檔補充專案導
 ## 專案與 codebase
 
 - 「放首歌」是獨立、從零建立的歌曲網站；原「聽風拾曲」專案僅作參考，不在本專案的修改範圍內。
-- 目前有設定、指引、規劃、進度與學習紀錄文件、已核對的 README 及基本 `index.html`；尚無 CSS、JavaScript 或 `package.json`。
+- 目前有設定、指引、規劃、進度與學習紀錄文件、已核對的 README 及基本 `index.html`；已有 `css/style.css`；尚無 JavaScript 或 `package.json`。
 - [AGENTS.md](AGENTS.md)：專案導覽、工程操作、課程補充與學習紀錄規則。
 - [ROADMAP.md](ROADMAP.md)：已確認完整目標、原專案參考基準、功能地圖與課程對照、重用建議、交付安排及理解深度。
 - [PROGRESS.md](PROGRESS.md)：跨對話接續用的目前進度、已確認決定、待確認事項與下一步。
@@ -21,6 +21,7 @@ Copilot 指引保留使用者提供的老師英文原文。本檔補充專案導
 - [.github/copilot-instructions.md](.github/copilot-instructions.md)：老師英文原文，作為主要教學與協作指引。
 - [.gitignore](.gitignore)：套件、建置產物、環境設定與日誌的排除規則。
 - [index.html](index.html)：首頁包含網站名稱、簡介與兩首靜態歌曲列表；基本首頁及兩首歌曲顯示已確認，li／ol 情境選擇已答對，其餘新增標籤理解待確認。
+- [css/style.css](css/style.css)：參考 Noir 的基本配色、字體與間距。
 - [verification/README.md](verification/README.md)：首頁驗證結果與可重複執行的操作步驟。
 - 新增實際程式入口、模組或執行方式時，同步更新此導覽；只記錄已存在並確認的內容。
 
