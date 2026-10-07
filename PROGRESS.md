@@ -1,6 +1,6 @@
 # 放首歌：目前進度
 
-最後更新：2026-09-23 15:53:09 +08:00（Asia/Taipei）
+最後更新：2026-10-07 08:20:00 +08:00（Asia/Taipei）
 
 ## 目前停留點
 
@@ -13,6 +13,14 @@
 學生指出先前代理把 Git 理解題排在 README 之前，並質疑 `npm run dev` 是否屬於最新教材。本輪重新讀取 [WEB03 整合版](https://moodle.ncnu.edu.tw/pluginfile.php/170589/mod_resource/content/0/web03.md)，確認同份文件含 W01、W02、W03；W01 第 1.7 節 README 範例只有標題、簡介與學號，首頁段落改用 7777 埠的 `http-server`。較早的 [獨立 WEB01](https://moodle.ncnu.edu.tw/pluginfile.php/162581/mod_resource/content/0/web01.md)才在 README 範例列 `npm install`／`npm run dev`，不可混為最新版本。現行順序是 `.gitignore` → README → `index.html` → 第一次 commit → GitHub；教材對照保留於下方。
 
 本輪依使用者要求，已更新 `AGENTS.md`、`ROADMAP.md`、`ai.md` 及本進度文件的教材版本、教學接續與實際檔案狀態；沒有更動 `.github/copilot-instructions.md`、學生正在編輯的 `.gitignore` 或現有 README。WEB03 的 W03 以已有網站 demo 為前提，學生可依修課情形使用靜態伺服器或 FastAPI，IIS／HTTPS 由老師設定；這些部署操作尚未在本專案進行。
+
+## 2026-10-07 專題計畫簡報潤稿（Check Point #1）
+
+- 學生上傳《聽風拾曲》專題計畫簡報資料包（PPTX／PDF、逐頁文案與講稿、原始談話與潤稿交接），要求「review 後直接重寫」。這是原專案的課堂提案，不修改本專案程式。
+- AI 已完成：逐頁閱讀文案、講稿與簡報總覽圖，產出潤稿版逐頁文字與講稿（14 頁頁序不變），交付給學生；原話摘錄與各頁資料依據保持原樣，未改 PPTX 本身與圖表。
+- 主要修改：第 2 頁困擾與第 4 頁功能對應、統一「收藏／分類／標籤」用詞、D1／R2／M4A／編輯碼等名詞白話化、第 5 頁搜尋與分類的差別放上投影片、第 11 頁心智圖分開「本階段」與「之後」。
+- 待學生補或確認：目前分類／循環最不順手的具體例子；個人或組隊；ChatGPT 網站建置服務的具體名稱與「B 站」說法；vinext 白話說明；AI 模型服務名稱；課程提案是否要求時程或風險；第 5、10 頁截圖待網站更新後補。
+- 學生尚未回覆是否採用；截圖、圖表文字同步與 PPTX 更新都尚未進行。
 
 ## 已完成與目前狀態
 
